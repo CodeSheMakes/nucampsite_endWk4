@@ -6,5 +6,6 @@
     ],
     "emmet.includeLanguages": {
         "{\"vue-html\": \"html\", \"javascript\": \"javascriptreact\"}": ""
-    }
+    },
+    "liveServer.settings.port": 5501
 }
