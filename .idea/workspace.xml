@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7409d0fe-9100-4efc-8ffd-bfa4a1dfe153" name="Default Changelist" comment="">
+    <list default="true" id="7409d0fe-9100-4efc-8ffd-bfa4a1dfe153" name="Default Changelist" comment="added forms and validation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AboutComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CampsiteInfoComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CampsiteInfoComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/mainComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/mainComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HeaderComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeaderComponent.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +31,28 @@
       <option name="presentableId" value="Default" />
       <updated>1627491860433</updated>
     </task>
+    <task id="LOCAL-00001" summary="added aboutsus">
+      <created>1627759239456</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1627759239456</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added aboutsus">
+      <created>1627759254399</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1627759254399</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added forms and validation">
+      <created>1628029482256</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1628029482256</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -48,5 +65,11 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added aboutsus" />
+    <MESSAGE value="added forms and validation" />
+    <option name="LAST_COMMIT_MESSAGE" value="added forms and validation" />
   </component>
 </project>
