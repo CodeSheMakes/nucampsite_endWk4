@@ -25,8 +25,8 @@ constructor(props) {
     }
 
     handleSubmit(values) {
-        console.log("Current state is: " + JSON.stringify(values));
-        alert("Current state is: " + JSON.stringify(values));
+        this.toggleModal();
+        this.props.addComment(this.props.campsiteId, values.rating, values.author, values.text);
     }
 
     render() {
@@ -56,8 +56,8 @@ constructor(props) {
 
 
                                     <div className="form-group">
-                                        <Label htmlFor="name">Your Name</Label>
-                                            <Control.text model=".yourName" id="yourName" name="yourName"
+                                        <Label htmlFor="author">Your Name</Label>
+                                            <Control.text model=".author" id="author" name="author"
                                                 placeholder="Your Name"
                                                 className="form-control"
                                                     validators={{
@@ -67,7 +67,7 @@ constructor(props) {
                                             />
                                             <Errors
                                     className="text-danger"
-                                    model=".yourName"
+                                    model=".author"
                                     show="touched"
                                     component="div"
                                     messages={{
@@ -80,8 +80,8 @@ constructor(props) {
 
 
                                     <div className="form-group">
-                                        <Label htmlFor="comments">Comments</Label>
-                                            <Control.textarea model=".comments" id="comments" name="comments" rows="6"
+                                        <Label htmlFor="text">Comments</Label>
+                                            <Control.textarea model=".text" id="comments" name="text" rows="6"
                                                 className="form-control"
                                             />
                                     </div>
@@ -115,7 +115,7 @@ constructor(props) {
         
     }
 
-    function RenderComments({comments}) {
+    function RenderComments({comments, addComment, campsiteId}) {
         if(comments) {
             return(
                 <div className="col-md-5 m1">
@@ -133,7 +133,7 @@ constructor(props) {
                                 )
                     })  
                     }
-                    <CommentForm />
+                    <CommentForm campsiteId={campsiteId} addComment={addComment} />
                 </div>
             )
         } else {
@@ -159,7 +159,11 @@ function CampsiteInfo(props)    {
                     </div>
                 <div className="row">
                     <RenderCampsite campsite={props.campsite} />
-                    <RenderComments comments={props.comments} />
+                    <RenderComments 
+                        comments={props.comments}
+                        addComment={props.addComment}
+                        campsiteId={props.campsite.id}
+                    />
                 </div>
             </div>
             </div>);
