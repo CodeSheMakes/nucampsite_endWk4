@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7409d0fe-9100-4efc-8ffd-bfa4a1dfe153" name="Default Changelist" comment="Added Redux Forms and Validation" />
+    <list default="true" id="7409d0fe-9100-4efc-8ffd-bfa4a1dfe153" name="Default Changelist" comment="Added Redux Reducer" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -97,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628383901721</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added Redux Reducer">
+      <created>1628545086004</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1628545086004</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -119,6 +126,7 @@
     <MESSAGE value="Added Login Modal" />
     <MESSAGE value="Added Redux" />
     <MESSAGE value="Added Redux Forms and Validation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Redux Forms and Validation" />
+    <MESSAGE value="Added Redux Reducer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Redux Reducer" />
   </component>
 </project>
