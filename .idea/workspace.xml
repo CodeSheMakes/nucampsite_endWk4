@@ -1,18 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7409d0fe-9100-4efc-8ffd-bfa4a1dfe153" name="Default Changelist" comment="Added Redux Reducer">
-      <change afterPath="$PROJECT_DIR$/src/shared/baseUrl.js" afterDir="false" />
+    <list default="true" id="7409d0fe-9100-4efc-8ffd-bfa4a1dfe153" name="Default Changelist" comment="Added CSSTRANSFORM">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CampsiteInfoComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CampsiteInfoComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ContactComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ContactComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/DirectoryComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DirectoryComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HomeComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomeComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/mainComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/mainComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/ActionCreators.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/ActionCreators.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/ActionTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/ActionTypes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/comments.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/comments.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/promotions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/promotions.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +113,21 @@
       <option name="project" value="LOCAL" />
       <updated>1628566921785</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Added Fetch Things">
+      <created>1628732836358</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1628732836358</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Added CSSTRANSFORM">
+      <created>1628735101971</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1628735101971</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -146,6 +150,8 @@
     <MESSAGE value="Added Redux" />
     <MESSAGE value="Added Redux Forms and Validation" />
     <MESSAGE value="Added Redux Reducer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Redux Reducer" />
+    <MESSAGE value="Added Fetch Things" />
+    <MESSAGE value="Added CSSTRANSFORM" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added CSSTRANSFORM" />
   </component>
 </project>

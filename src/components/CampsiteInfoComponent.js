@@ -110,7 +110,7 @@ constructor(props) {
                 <FadeTransform
                     in
                     transformProps={{
-                        exitTransform: 'scale(0.5) translateY(-50%)'
+                        exitTransform: 'scale(20) translateY(70%)'
                     }}>
                     <Card>
                         <CardImg top src={baseUrl + campsite.image} alt={campsite.name} />
@@ -128,7 +128,7 @@ constructor(props) {
         if(comments) {
             return(
                 <div className="col-md-5 m1">
-                   <h4>Comments</h4>
+                <h4>Comments</h4>
                 <Stagger in>
                     {
                         comments.map(comment => {

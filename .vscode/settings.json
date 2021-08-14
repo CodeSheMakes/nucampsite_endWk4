@@ -7,5 +7,7 @@
     "emmet.includeLanguages": {
         "{\"vue-html\": \"html\", \"javascript\": \"javascriptreact\"}": ""
     },
-    "liveServer.settings.port": 5501
+    "liveServer.settings.port": 5501,
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "terminal.integrated.automationShell.windows": ""
 }
