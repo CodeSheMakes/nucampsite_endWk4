@@ -110,7 +110,7 @@ constructor(props) {
                 <FadeTransform
                     in
                     transformProps={{
-                        exitTransform: 'scale(20) translateY(70%)'
+                        exitTransform: 'scale(.5) translateY(20%)'
                     }}>
                     <Card>
                         <CardImg top src={baseUrl + campsite.image} alt={campsite.name} />
